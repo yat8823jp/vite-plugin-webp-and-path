@@ -16,7 +16,7 @@ const VitePluginWebpAndPath = (options: Options = {}) => {
 	const {
 		targetDir = './dist/',
 		imgExtensions = 'jpg,png',
-		textExtensions = 'html,css',
+		textExtensions = 'html,css,js',
 		quality = 80,
 		enableLogs = true,
 	} = options;
